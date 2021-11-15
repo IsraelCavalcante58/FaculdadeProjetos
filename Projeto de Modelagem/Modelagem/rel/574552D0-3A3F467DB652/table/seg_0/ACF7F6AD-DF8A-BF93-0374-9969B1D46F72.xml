@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACF7F6AD-DF8A-BF93-0374-9969B1D46F72" name="T_HISTORICO_PESO_ALTURA">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>3FAE3484-45DF-6FC0-EBF4-59731B9D066F</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_historico_peso" id="B6FEA983-B6EC-8410-30FA-0C20EB5434F0">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>76DF3625-E1AB-C780-C93B-A4C8E4414868</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="628733EF-F6CE-E537-F496-D5F98F4AE305">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>A4BD7014-743E-1838-7C69-54DE1E748B43</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87117A2D-1167-8256-F5B1-6C327B328EC3" referredColumn="6B4B5919-12A3-56FD-3942-8FBB353147D2"/>
+</associations>
+</Column>
+<Column name="dt_atualizacao_peso" id="563FB15C-C569-3D9D-7D4F-55E020AACDD2">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>2A170526-E1BB-C3CE-2458-43DE240C37E8</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_peso" id="5F17456E-DFDD-8810-94DA-E6E0EB83C081">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>A28765BC-7B07-281B-D16D-7F5244846F32</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_altura" id="516FA1DA-01FC-3476-F74B-248CD06DF0D8">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>D91182F3-F4D2-F12E-79D7-6703EC226F97</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="7C29961E-41D5-BD18-7E68-8426DD5148BC">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:19:14 UTC</createdTime>
+<generatorID>EF96DCEB-0575-B29F-8364-20A752D6855E</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8D31932-8E0E-70E0-623F-8A967556F2BC" name="T_HISTORICO_PESO_ALTURA_PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>F503DC71-5CFD-6951-EC71-36F66AF85052</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6FEA983-B6EC-8410-30FA-0C20EB5434F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFCA57FE-F716-7CC7-E7FF-A3D7D9DE4254" name="Relation_9">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>EE7136E8-51D7-B026-43E6-BAB88B3075F5</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="628733EF-F6CE-E537-F496-D5F98F4AE305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

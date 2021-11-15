@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D8D6387-EB30-DD5E-C417-3BF5B81A921E" name="T_TELEFONE">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>BF718AD0-B500-A3B0-657B-7B1D11F3453B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_telefone" id="BD088545-6170-A6D7-AF1F-C65D562167CE">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>8C6CDB2D-49EE-A972-0350-7B56D11264B6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="20688432-94B8-FA45-7D94-907A81174207">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>CAF3F210-9B33-32D5-0576-B2E55958B319</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28758929-5074-8DBD-3762-FC7937D9990B" referredColumn="59DAC2F5-EB06-E462-68D7-E41AA2667AAD"/>
+</associations>
+</Column>
+<Column name="tp_telefone" id="9C828B15-779F-6575-A5F6-DE730E61FEDC">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>1C8EFE15-BA47-F229-12A8-B4AE5AA963F5</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="37B291E5-0C78-AE3D-8F98-8092BFF3CF64">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>0A10D545-4EFB-22D8-1F9B-F8F3189DBD3B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88E8005E-6542-920C-9457-20D811566ED1" name="T_TELEFONE_PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>438FE652-2965-8F3A-B2F6-08BF6B9FB649</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD088545-6170-A6D7-AF1F-C65D562167CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ECD6971-5B04-D7AF-16A2-2D871D393853" name="T_TELEFONE__IDX">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>80C3CBD3-7585-A790-00DD-8E59CFFA218C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="20688432-94B8-FA45-7D94-907A81174207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="857AAFBF-71E4-6111-CFF1-5FC4B1E68A6C" name="Relation_4">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>80C3CBD3-7585-A790-00DD-8E59CFFA218C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20688432-94B8-FA45-7D94-907A81174207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

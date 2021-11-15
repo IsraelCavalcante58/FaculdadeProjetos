@@ -1,0 +1,11 @@
+Algumas informações relevantes para o melhor entendimento do projeto:
+
+
+
+Algumas tabelas já virão preenchidas com informações pelo próprio sistema, por exemplo a T_COMIDA, que virá totalmente preenchida com informações de comidas existentes, por exemplo,
+calorias, gordura, proteínas e etc.
+As tabelas que tem o atributo DATA, é porque o modelo de negócio permitirá que seja feito a atualização desses dados pelo próprio usuário, por exemplo o T_HISTORICO_PESO_ALTURA,
+que permitirá que ele registre suas mudanças de peso.
+O projeto tem algumas tabelas associativas que foram concebidas através de relações M:N, essas estão na cor amarela para melhor identificação.
+Outra informação relevante é o fato de que eu optei por fazer algumas informações monovaloradas (simples), por exemplo o atributo email_usuario, eu poderia ter feito uma tabela única para ele
+porém nesse modelo de negócio cada usuário só poderá ter um único e-mail.

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF718AD0-B500-A3B0-657B-7B1D11F3453B" name="T_TELEFONE">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:07:26 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_telefone" id="8C6CDB2D-49EE-A972-0350-7B56D11264B6">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:07:32 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="CAF3F210-9B33-32D5-0576-B2E55958B319">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-09 21:52:27 UTC</createdTime>
+<generatorID>80C3CBD3-7585-A790-00DD-8E59CFFA218C</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<referedAttribute>98F5E571-E749-DBDE-921C-6D6725678CDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_telefone" id="1C8EFE15-BA47-F229-12A8-B4AE5AA963F5">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:07:38 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="0A10D545-4EFB-22D8-1F9B-F8F3189DBD3B">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:07:56 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="438FE652-2965-8F3A-B2F6-08BF6B9FB649" name="T_TELEFONE PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:07:52 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C6CDB2D-49EE-A972-0350-7B56D11264B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

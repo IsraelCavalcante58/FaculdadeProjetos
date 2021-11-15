@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D93AA46F-EBA3-5A92-15C8-8348D28DE408" containerWithKeyObject="7D21C9C9-A04E-E602-18E6-3727FD9827DC" localFKIndex="432F1181-BF47-3BF3-9582-A7219BBB5293" name="Relation_11">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>37FCD254-94D0-C0A5-7A56-B545F125D3A3</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_COMIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC8E3F23-D1D4-2E26-44A1-BD259B1E79DE</referredTableID>
+<keyObject>B7FB5514-2053-8F8E-465A-F3797B4460B5</keyObject>
+<referredKeyID>B7FB5514-2053-8F8E-465A-F3797B4460B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_comida</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

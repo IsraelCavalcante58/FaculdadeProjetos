@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCB1F7B6-CD64-CE23-DFB6-CB0978F682EE" name="T_PERSONAL">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 15:47:10 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="doc_cref" id="02D14588-D87A-8F6D-6344-1F77625B2FA8">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 15:49:53 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inscricao" id="A1BA6386-08F9-BA8E-19FC-C03E1D00DF82">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 15:50:56 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="8C2D617D-6318-6479-497C-ABBF2985339B">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 15:54:01 UTC</createdTime>
+<generatorID>3246BE85-9F7B-D09C-5AD6-A2F36B0571C0</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<referedAttribute>98F5E571-E749-DBDE-921C-6D6725678CDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7169C4B3-B05C-8417-99CD-C2C83395F195" name="T_PERSONAL PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 15:54:22 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C2D617D-6318-6479-497C-ABBF2985339B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

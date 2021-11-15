@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AF05A67-2EA6-353B-C132-EBB4774A56EC" name="T_PERSONAL">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>FCB1F7B6-CD64-CE23-DFB6-CB0978F682EE</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="doc_cref" id="46DC217C-01AF-7B1C-D456-508F12976BEA">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>02D14588-D87A-8F6D-6344-1F77625B2FA8</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inscricao" id="62C20FE7-3AEF-0217-4285-A9B057F2F4C6">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>A1BA6386-08F9-BA8E-19FC-C03E1D00DF82</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="F267D389-7871-52FF-4CF2-1BC4C5E1140C">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>8C2D617D-6318-6479-497C-ABBF2985339B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFD7ADF7-808D-B759-C0F8-BC7F187A2752" referredColumn="59DAC2F5-EB06-E462-68D7-E41AA2667AAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2206C62-7838-D871-A02A-52A17C1474C9" name="T_PERSONAL_PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>7169C4B3-B05C-8417-99CD-C2C83395F195</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F267D389-7871-52FF-4CF2-1BC4C5E1140C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="224597DA-C443-38B1-0F1E-711F1DC5EDAD" name="Relation_19">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>3246BE85-9F7B-D09C-5AD6-A2F36B0571C0</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F267D389-7871-52FF-4CF2-1BC4C5E1140C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

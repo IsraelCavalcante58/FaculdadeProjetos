@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08268989-8626-49CE-EFB5-66A0D27407C0" name="T_AGUA">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-09 22:20:56 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_agua" id="A77E9758-9BD0-6803-5945-11D3B32724B1">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-09 22:21:01 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="8A266246-FF57-3AC3-A946-C866ACA9B462">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:18:40 UTC</createdTime>
+<generatorID>5CE5FB1E-C72E-73C1-0A73-F476E36861EC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<referedAttribute>FA7E95EE-C5BD-5A25-EE89-3A39F2B09221</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_agua_ml" id="F6848C50-A8BB-391E-5910-8F1EB8C97D5B">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-09 22:21:08 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_historico_agua" id="FC882265-3374-1424-3A40-761EC656FE73">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-09 22:21:49 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B5A6D22-D95D-0C31-C95F-12C5376E9356" name="T_AGUA PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-09 22:21:07 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A77E9758-9BD0-6803-5945-11D3B32724B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

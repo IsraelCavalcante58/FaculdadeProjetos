@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="981F16BD-F21C-C74E-97E1-8536EAA08443" name="T_AGUA">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>08268989-8626-49CE-EFB5-66A0D27407C0</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_agua" id="B26BFB61-C1C2-957B-9DE0-5D6482E3F103">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>A77E9758-9BD0-6803-5945-11D3B32724B1</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="5E639099-630D-035C-F046-58E6269748CD">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>138E1C75-21B7-8DE7-1474-C0C0188D84B6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F8AA662-4FE5-1345-61BA-DB3926D147CF" referredColumn="6B4B5919-12A3-56FD-3942-8FBB353147D2"/>
+</associations>
+</Column>
+<Column name="qtd_agua_ml" id="F851DED3-3F63-5CAD-10EB-DCFB2BBD5E28">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>F6848C50-A8BB-391E-5910-8F1EB8C97D5B</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_historico_agua" id="030C3AA7-EBB8-5ECD-2DEA-E4A2344D34FF">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>FC882265-3374-1424-3A40-761EC656FE73</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="5601E67E-3904-E793-6E35-686E87CB5586">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:19:14 UTC</createdTime>
+<generatorID>8A266246-FF57-3AC3-A946-C866ACA9B462</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AA8BFB0-DFF3-D727-6213-06B36A454A68" name="T_AGUA_PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>6B5A6D22-D95D-0C31-C95F-12C5376E9356</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B26BFB61-C1C2-957B-9DE0-5D6482E3F103"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1545D54-4658-FF69-0406-C82C13948BCB" name="Relation_12">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>5CE5FB1E-C72E-73C1-0A73-F476E36861EC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E639099-630D-035C-F046-58E6269748CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

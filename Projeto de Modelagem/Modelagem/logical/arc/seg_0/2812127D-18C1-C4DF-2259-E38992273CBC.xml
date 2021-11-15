@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="2812127D-18C1-C4DF-2259-E38992273CBC" name="Arc_3">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:14:10 UTC</createdTime>
+<ownerDesignName>MODELAGEMATT</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<entity>714B1933-3D03-7014-E912-48290A491E9F</entity>
+<relations>
+<relationID>A01B489E-A95D-0542-D32F-D05B01C0E0C8</relationID>
+<relationID>312BEE5F-F656-D423-03CD-28AF4A7E1BA2</relationID>
+</relations>
+</Arc>

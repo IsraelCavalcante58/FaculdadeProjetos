@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="81133BF3-0E51-E4C6-EBAA-E8CE3B2DE57C" mainViewID="3D2C2300-22C8-3907-6223-8466A2914F95">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-02 16:45:50 UTC</createdTime>
+<ownerDesignName>HealthTrack</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="673EF196-52BA-E6C1-CCC3-21D81B76F8DB" name="T_SKILLS_NUTRI">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:11:10 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_skill" id="221AD442-56CB-4028-1A2F-2835F79137F3">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:11:21 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="FB438595-4C7B-60F1-C268-E743552A22DC">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:18:44 UTC</createdTime>
+<generatorID>4907D3D5-BD7C-94A2-44A4-7C592616AB7A</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<referedAttribute>0C71BFDC-877C-889F-4B5F-6278E5022BDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_skill" id="11B18817-59D4-8029-DAAE-847B82E49578">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:11:33 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_skill" id="E8B0A7AA-2C4B-2AC8-C147-D44FB55E8807">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:11:47 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nvl_skill" id="AFD06B13-03CF-E9BE-75EB-9E2813A83D83">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 19:03:31 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D239C7C-FA20-E9B5-A214-128601FFD060" name="T_SKILLS_NUTRI PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-08 17:11:31 UTC</createdTime>
+<ownerDesignName>Modelagem</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="574552D0-650F-9C6D-281A-3A3F467DB652" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>221AD442-56CB-4028-1A2F-2835F79137F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

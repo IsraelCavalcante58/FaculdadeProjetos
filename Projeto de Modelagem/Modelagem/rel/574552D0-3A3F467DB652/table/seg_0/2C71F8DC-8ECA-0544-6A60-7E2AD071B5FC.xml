@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C71F8DC-8ECA-0544-6A60-7E2AD071B5FC" name="T_SKILLS_PERSONAL">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>47A70128-E62E-9E33-F9D0-AAEE26C8CDDC</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_skill_personal" id="359ED36E-E7E8-6EE4-FCE5-B5201FC4BAD4">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>FCD00CF9-D2C7-7F64-14FA-69D77C6F90EA</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_skill" id="81E3A863-9844-148B-8499-D2596D64DB11">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>3E57D88D-D941-C22B-A525-E0A719FED445</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_skill" id="0A0E2D1B-F9A2-3B4A-AF63-246E2350FBA0">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>8A5F56D5-46F2-3E33-96CD-9EF5A8E85828</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nvl_skill" id="E6C211EA-B7E7-D120-ED2F-BFFE8ECE487A">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>DC2861CD-D7CF-979B-E696-2C9ACD827A52</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="79022D7C-6150-E168-C9D9-1D7F2DD077CD">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>BDCBBEDC-CD63-F67C-2EFD-43D1C6C677CB</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF6EF139-4492-063A-8A6F-5A6E559C8F99" referredColumn="F267D389-7871-52FF-4CF2-1BC4C5E1140C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFCCA01A-583F-182D-FF61-DD5179CE7E30" name="T_SKILLS_PERSONAL_PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>EA58EB96-53DB-D7C2-8184-06E2658421C8</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="359ED36E-E7E8-6EE4-FCE5-B5201FC4BAD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3E756E2-3438-D2C4-E834-367AB6FACBB7" name="Relation_20">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-14 16:06:05 UTC</createdTime>
+<generatorID>86E86779-78CC-CF01-977B-BD434744B17F</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79022D7C-6150-E168-C9D9-1D7F2DD077CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

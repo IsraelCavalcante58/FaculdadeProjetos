@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F72131D2-A866-100E-ABAD-AED405AF2D88" name="T_EXERCITAR">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>317238E8-00F0-1A78-9120-A3474740B08D</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_exercitar" id="3DCA7646-7BF4-70BB-9616-9905732D7BAD">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>9FC0B2B5-2946-BFDD-9AE2-9C60605A607F</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_exercicio_info" id="36111BC4-7619-274B-519E-0D8400DB0FE3">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>4B144D3F-82C1-778B-4507-B5B6148FE973</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="587FB1FB-5504-2A9D-F71B-1F654044785C" referredColumn="019A2CA9-6B9B-D024-1C2E-133EA355D3AE"/>
+</associations>
+</Column>
+<Column name="cd_usuario" id="458207A2-5230-99B8-F6ED-B5D86A263589">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>86712BFA-2546-3F14-D969-8B08F4BF3DED</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EBDE7F2-F97F-515D-E9F4-0B519FDAF87C" referredColumn="6B4B5919-12A3-56FD-3942-8FBB353147D2"/>
+</associations>
+</Column>
+<Column name="temp_treino" id="69C883DA-B55D-0BF3-0505-678BC56B93DE">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>87D8A61F-A640-2F2B-DD9A-0F7C01EF6FCE</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_historico_exercicios" id="ED2ED6DF-8BD0-8A32-6383-3BE0FC105029">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>B7C63D8D-E5CD-3A35-3E6E-C3B573724EEA</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="4CAC0413-49EC-746F-6682-8629302F2398">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:19:14 UTC</createdTime>
+<generatorID>EA30C0C8-7A4D-F7CD-AD87-A6716CD611A6</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E616D84-D7B9-E980-CFC4-2639B51F191F" name="T_EXERCITAR_PK">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>B362B8B2-82C4-7BFC-48E6-67B4BBD54A83</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DCA7646-7BF4-70BB-9616-9905732D7BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="501750B0-96D2-B845-341D-5F14A61E6A66" name="Relation_7">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>E406EE7E-8FCD-85AC-2082-83A4B458D8B3</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36111BC4-7619-274B-519E-0D8400DB0FE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACDDA907-1E0B-B4DE-6123-2CDB670A53BA" name="Relation_8">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>25788E55-D67F-5F5A-A855-BBFE22E91567</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="458207A2-5230-99B8-F6ED-B5D86A263589"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

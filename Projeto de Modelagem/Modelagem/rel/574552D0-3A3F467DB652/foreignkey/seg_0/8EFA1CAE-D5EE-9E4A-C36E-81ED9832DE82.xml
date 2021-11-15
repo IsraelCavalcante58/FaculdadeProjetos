@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8EFA1CAE-D5EE-9E4A-C36E-81ED9832DE82" containerWithKeyObject="06D08F88-EE98-D429-5B29-D449A1F0CD97" localFKIndex="BCB79102-A667-E286-D26D-8D08CAE25CE3" name="Relation_1">
+<createdBy>Predator</createdBy>
+<createdTime>2021-11-12 22:07:30 UTC</createdTime>
+<generatorID>312BEE5F-F656-D423-03CD-28AF4A7E1BA2</generatorID>
+<ownerDesignName>Modelagem</ownerDesignName>
+<referredTableLongName>T_PESSOA</referredTableLongName>
+<arc>9A3C8C6C-8708-3661-AF3E-B788E8A28BC4</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2240119-9AE5-6F5B-F229-C080BFAF3F71</referredTableID>
+<keyObject>5A7D4AD7-0198-BC9F-F34C-A0EA55AE4842</keyObject>
+<referredKeyID>5A7D4AD7-0198-BC9F-F34C-A0EA55AE4842</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_pessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>1</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
